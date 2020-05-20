@@ -20,3 +20,5 @@ The order of the letters within `keys` do not matter.
 `To be substituted` can be pretty much anything :)
 
 [Check it out here!](https://adri326.github.io/velot-poc/index.html)
+
+[Chinese config example](https://gist.github.com/adri326/42a63f9f6b8cd20f5be871aff09c1a80)
