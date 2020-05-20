@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>VeloT POC</title>
+    <script src="index.js" defer></script>
+    <meta charset="utf8" />
+    <style>
+      body {
+        margin: 0;
+        width: 100vw;
+        min-height: 100vh;
+        overflow-x: hidden;
+        display: flex;
+        flex-direction: row;
+      }
+
+      textarea {
+        width: 100%;
+        height: calc(100vh - 2px);
+        margin: 1px;
+        font-size: 14pt;
+        padding: 0.1em 0.4em;
+        box-sizing: border-box;
+      }
+
+      textarea.err {
+        border: 1px solid #e03010;
+      }
+
+      textarea::selection {
+        background-color: #408080;
+        color: white;
+      }
+
+      .large-text {
+        font-size: 16pt;
+      }
+    </style>
+  </head>
+  <body>
+    <textarea id="input-zone" class="large-text" placeholder="Type here..." ></textarea>
+    <textarea id="subst-zone" placeholder="Put your substitutions here..."></textarea>
+  </body>
+</html>
